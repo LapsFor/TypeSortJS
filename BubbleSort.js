@@ -16,8 +16,7 @@ const BubbleSort = (array) => {
                 isSwapped = true;
             }
         }
-        if(!isSwapped) {
-            console.log("Array is sorted", array); 
+        if(!isSwapped) { 
             break;
         }
         // если ни одного обмена не было, массив уже отсортирован или если массив отсортирован, то дальнейшие итерации не нужны, выходим из цикла
